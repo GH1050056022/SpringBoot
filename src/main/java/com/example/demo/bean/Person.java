@@ -7,7 +7,6 @@ import javax.validation.constraints.Email;
 
 /**
  * @ClassName: Person
- * @Author: feng.i.liu
  * @Description:
  * @Date: 2021/6/30 14:09
  * @Version: 1.0

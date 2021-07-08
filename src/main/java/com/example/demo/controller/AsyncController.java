@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @ClassName: AsyncController
- * @Author: feng.i.liu
  * @Description:
  * @Date: 2021/7/1 17:20
  * @Version: 1.0

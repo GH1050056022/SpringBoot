@@ -7,7 +7,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * @ClassName: HelloController
- * @Author: feng.i.liu
  * @Description:
  * @Date: 2021/6/29 16:48
  * @Version: 1.0
