@@ -1,0 +1,23 @@
+server:
+  port: 8081
+#选择要激活那个环境块,使用yml去实现不需要创建多个配置文件，更加方便了 !
+spring:
+  profiles:
+    active: dev
+blzURL: https://cn.battle.net
+
+---
+server:
+  port: 8080
+spring:
+  config:
+    activate:
+      on-profile: dev
+---
+
+server:
+  port: 8084
+spring:
+  config:
+    activate:
+      on-profile: prod
