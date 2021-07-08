@@ -1,22 +1,23 @@
-### 3 分钟了解如何进入开发
+### 从0搭建自己项目
 
-欢迎使用云效 Codeup，通过阅读以下内容，你可以快速熟悉 Codeup ，并立即开始今天的工作。
+## 说明
+准备从SpringBoot开始，逐渐完善自己的项目。
 
-### 提交**文件**
+## 因为项目从codeup代码库迁移而来，故记录提交记录
+构建基础项目  2021/6/29 17:46
+add yml file  2021/6/30 11:33
+使用yml去实现不需要创建多个配置文件，更加方便了  2021/6/30 14:08
+JSR303注解字段校验  2021/6/30 14:12
+swagger  2021/6/30 17:34
+blz  2021/6/30 17:36
+集成swagger  2021/7/1 17:18
+集成 异步  2021/7/2 10:31
+add QRCodeUtils  2021/7/6 13:56
+add pdf;excel;log4j  2021/7/8 16:33
+add xlsToPdf  2021/7/8 16:34
+导出带二维码的pdf 或excel demo  2021/7/8 16:39
 
-首先，你需要了解在 Codeup 中如何提交代码文件，跟着文档「[__提交第一行代码__](https://thoughts.aliyun.com/sharespace/5e8c37eb546fd9001aee8242/docs/5e8c37e7546fd9001aee81fd)」一起操作试试看吧。
 
-### 开启扫描
-
-开发过程中，为了更好的管理你的代码资产，Codeup 内置了「[__代码规约扫描__](https://thoughts.aliyun.com/sharespace/5e8c37eb546fd9001aee8242/docs/5e8c37e8546fd9001aee821c)」和「[__敏感信息检测__](https://thoughts.aliyun.com/sharespace/5e8c37eb546fd9001aee8242/docs/5e8c37e8546fd9001aee821b)」服务，你可以在代码库设置-集成与服务中一键开启，开启后提交或合并请求的变更将自动触发扫描，并及时提供结果反馈。
-
-![](https://img.alicdn.com/tfs/TB1nRDatoz1gK0jSZLeXXb9kVXa-1122-380.png "")
-
-![](https://img.alicdn.com/tfs/TB1PrPatXY7gK0jSZKzXXaikpXa-1122-709.png "")
-
-### 代码评审
-
-功能开发完毕后，通常你需要发起「[__代码合并和评审__](https://thoughts.aliyun.com/sharespace/5e8c37eb546fd9001aee8242/docs/5e8c37e8546fd9001aee8216)」，Codeup 支持多人协作的代码评审服务，你可以通过「[__保护分支__](https://thoughts.aliyun.com/sharespace/5e8c37eb546fd9001aee8242/docs/5e8c37e9546fd9001aee8221)」策略及「[__合并请求设置__](https://thoughts.aliyun.com/sharespace/5e8c37eb546fd9001aee8242/docs/5e8c37e9546fd9001aee8224)」对合并过程进行流程化管控，同时提供 WebIDE 在线代码评审及冲突解决能力，让你的评审过程更加流畅。
 
 ![](https://img.alicdn.com/tfs/TB1XHrctkP2gK0jSZPxXXacQpXa-1432-887.png "")
 
