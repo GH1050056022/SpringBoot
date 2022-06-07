@@ -112,9 +112,9 @@ public class ExcelController {
 
         // 创建第一个sheet
         Sheet sheet = workbook.createSheet("XXXXXXX");
-        sheet.setColumnWidth(0, 60 * 256); // 项目
-        sheet.setColumnWidth(1, 40 * 256); // 本月金额
-        sheet.setColumnWidth(2, 40 * 256); // 本年累计
+        sheet.setColumnWidth(0, 60 * 256);
+        sheet.setColumnWidth(1, 40 * 256);
+        sheet.setColumnWidth(2, 40 * 256);
 
         //合并单元格
         sheet.addMergedRegion(new CellRangeAddress(0, 0, 0, 2));
