@@ -1,4 +1,4 @@
-package com.example.demo.config;
+package com.lucio.demo.config;
 
 import org.springframework.context.annotation.Configuration;
 

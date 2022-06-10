@@ -1,4 +1,4 @@
-package com.example.demo.bean;
+package com.lucio.demo.bean;
 
 import org.springframework.stereotype.Component;
 import org.springframework.validation.annotation.Validated;

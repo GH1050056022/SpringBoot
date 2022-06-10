@@ -1,4 +1,4 @@
-package com.example.demo.utils.QRCode;
+package com.lucio.demo.utils.QRCode;
 
 import com.google.zxing.*;
 import com.google.zxing.client.j2se.BufferedImageLuminanceSource;

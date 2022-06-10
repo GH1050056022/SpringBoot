@@ -1,4 +1,4 @@
-package com.example.demo.utils;
+package com.lucio.demo.utils;
 
 /**
  * @ClassName: IdWorker

@@ -1,6 +1,6 @@
-package com.example.demo.controller;
+package com.lucio.demo.controller;
 
-import com.example.demo.service.AsyncService;
+import com.lucio.demo.service.AsyncService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
