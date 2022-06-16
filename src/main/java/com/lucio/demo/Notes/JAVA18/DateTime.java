@@ -1,6 +1,7 @@
 package com.lucio.demo.Notes.JAVA18;
 
 import java.time.*;
+import java.time.format.DateTimeFormatter;
 
 public class DateTime {
 
@@ -52,5 +53,11 @@ public class DateTime {
 
         ZoneId currentZone = ZoneId.systemDefault();
         System.out.println("当期时区: " + currentZone);
+
+        //时间转换为LocalDateTime
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM");
+        LocalDateTime currentTime = LocalDate.parse("2022-06-01",formatter).atStartOfDay();
+        currentTime = currentTime.minusMonths(1L);
+        String nextPeriod = formatter.format(currentTime);
     }
 }
