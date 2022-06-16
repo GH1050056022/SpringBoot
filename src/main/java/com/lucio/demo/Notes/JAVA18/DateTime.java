@@ -56,7 +56,7 @@ public class DateTime {
 
         //时间转换为LocalDateTime
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM");
-        LocalDateTime currentTime = LocalDate.parse("2022-06-01",formatter).atStartOfDay();
+        LocalDateTime currentTime = LocalDate.parse("2022-06",formatter).atStartOfDay();
         currentTime = currentTime.minusMonths(1L);
         String nextPeriod = formatter.format(currentTime);
     }
