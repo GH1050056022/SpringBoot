@@ -37,3 +37,7 @@ mybatis:
   config-location: classpath:mybatis-config.xml
   mapper-locations: classpath:/mapping/*.xml
   type-aliases-package: com.lucio.demo.bean
+
+logging:
+  level:
+    root: info
