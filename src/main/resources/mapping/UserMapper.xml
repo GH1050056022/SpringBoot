@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lucio.demo.mapper.UserMapper">
+    <select id="getUserById" parameterType="java.lang.Integer" resultType="com.lucio.demo.bean.UserInfo">
+        select * from user_info where id = #{id, jdbcType=BIGINT} limit 1
+    </select>
+    <select id="queryList" resultType="com.lucio.demo.bean.UserInfo">
+        select * from user_info
+    </select>
+</mapper>

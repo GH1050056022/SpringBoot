@@ -1,6 +1,10 @@
 package com.lucio.demo.Notes.JAVA18;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.IntSummaryStatistics;
+import java.util.List;
+import java.util.Random;
 import java.util.stream.Collectors;
 
 public class StreamTester {
