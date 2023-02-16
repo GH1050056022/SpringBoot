@@ -1,20 +1,19 @@
 package com.lucio.demo.bean;
 
 public class UserInfo {
+    private Integer id;
 
-    int id;
+    private String name;
 
-    String name;
+    private String position;
 
-    String position;
+    private String address;
 
-    String address;
-
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -23,7 +22,7 @@ public class UserInfo {
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.name = name == null ? null : name.trim();
     }
 
     public String getPosition() {
@@ -31,7 +30,7 @@ public class UserInfo {
     }
 
     public void setPosition(String position) {
-        this.position = position;
+        this.position = position == null ? null : position.trim();
     }
 
     public String getAddress() {
@@ -39,6 +38,6 @@ public class UserInfo {
     }
 
     public void setAddress(String address) {
-        this.address = address;
+        this.address = address == null ? null : address.trim();
     }
 }
