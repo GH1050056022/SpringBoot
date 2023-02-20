@@ -30,6 +30,11 @@ spring:
     maxPoolPreparedStatementPerConnectionSize: 20
     useGlobalDataSourceStat: true
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+  redis:
+    database: 0
+    host: 127.0.0.1
+    post: 6379
+    password:
 
 blzURL: https://cn.battle.net
 
