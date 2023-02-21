@@ -1,6 +1,5 @@
 package com.lucio.demo;
 
-import com.lucio.demo.controller.UserController;
 import org.mybatis.spring.annotation.MapperScan;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
