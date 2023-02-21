@@ -32,7 +32,7 @@
                              targetProject="src/main/java">
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
-        <table tableName="user_info" domainObjectName="UserInfo"
+        <table tableName="cookbook_info" domainObjectName="CookbookInfo"
                enableCountByExample="false" enableUpdateByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false"></table>
