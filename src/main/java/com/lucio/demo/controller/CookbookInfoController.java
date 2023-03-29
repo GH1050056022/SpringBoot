@@ -13,7 +13,7 @@ import java.util.List;
 
 @RestController
 @EnableSwagger2
-@RequestMapping(value = "cookbook")
+@RequestMapping(value = "api/cookbook")
 public class CookbookInfoController {
 
     Logger logger = LoggerFactory.getLogger(UserController.class);
@@ -48,10 +48,9 @@ public class CookbookInfoController {
         cookbookService.delete(id);
         return new Response<String>(Response.SUCCESS,Response.SUCCESS,"成功");
     }
-
-    @RequestMapping(value = "/list/{token}",method = RequestMethod.POST)
-    public Response<List<CookbookInfo>> list(@PathVariable String token,
-                                             @RequestBody CookbookInfo cookbookInfo){
+   
+    @RequestMapping(value = "/list",method = RequestMethod.POST)
+    public Response<List<CookbookInfo>> list(@RequestBody CookbookInfo cookbookInfo){
         List<CookbookInfo> list = cookbookService.list(cookbookInfo);
         return new Response<>(Response.SUCCESS,Response.SUCCESS,list);
     }
